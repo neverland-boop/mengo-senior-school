@@ -5,7 +5,7 @@ body {
 }
 
 .info {
-  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7)), url('images-contact/contact.jpeg') center/cover;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7)), url('../images-contact/contact.jpeg') center/cover;
   color: #fff;
   padding: 3rem 0;
   text-align: center;
