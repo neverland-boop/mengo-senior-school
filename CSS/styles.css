@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.2;
+  margin-bottom: .5em;
+}
+header {
+  background: rgb(57, 48, 48);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.bar {
+  background: red;
+  font-size: .8rem;
+  padding: .4rem 0;
+  text-align: center;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8rem 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
+.badge { display: flex; 
+    align-items: center; 
+    gap: .7rem; 
+    color: #fff; 
+}
+.badge img { width: 42px; 
+    height: 42px; 
+}
+.badge b {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  color: rgb(222, 222, 118);
+}
+.badge small {
+  display: block;
+  font-size: .7rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #bbb;
+}
+.menu { display: flex; 
+    gap: .3rem; 
+    list-style: none; 
+}
+.menu a {
+  color: #fff;
+  padding: .5rem .9rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.menu a:hover, .menu a.active {
+  background: rgb(222, 222, 118);
+  color: black;
+  text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(bishopblock.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: o;
+}
+
+
+.mainInfo {
+    padding: 40px 10%;
+    
+}
+
+.welcome-sec {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-sec h1 {
+    color: #630e10;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.welcome-message {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.apply-div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.yellow {
+    background-color: rgb(222, 222, 118) ;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
+
+.why-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.Academic, .character, .christian {
+    background-color: #ffffff;
+    padding: 25px;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-top: 5px solid rgb(222, 222, 118) ;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Academic h3, .character h3, .christian h3 {
+    margin-bottom: 15px;
+    color: #630e10;
+}
+
+footer {
+  background: rgb(57, 48, 48);
+  color: #ccc;
+  padding: 2.5rem 0 1rem;
+  border-top: 5px solid rgb(222, 222, 118);
+}
+footer h4 {
+  color: rgb(222, 222, 118);
+  margin-bottom: .6rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+footer a { color: #ccc; }
+footer a:hover { color: rgb(222, 222, 118); }
+.foot-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-bottom: 1.5rem;
+}
+.copy-right {
+  border-top: 1px solid #bfbbbb;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: .85rem;
+}
