@@ -13,10 +13,7 @@ h2{
 }
 body{
   background-color: rgb(218, 208, 208);
-  display :flex;
-  flex-direction: column;
-  min-height:100vh;
-  margin:0;
+ 
 }
 
 .rule {
@@ -28,9 +25,11 @@ body{
 }
 
 table{
-    width:100%;
-    border-collapse: separate;
+    width:80%;
+    border-collapse: collapse;
     border-spacing:0 8px;
+    margin: 20px auto;
+     border: solid 1px black;
 }
 
 thead{
@@ -39,12 +38,21 @@ thead{
     text-align: center;
     padding: 15px;
     color:goldenrod;
+    font-weight: 600;
+  
 }
 
 tbody{
   padding:15px;
   text-align: center;
   color:black;
+  
+}
+td,th{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 tbody tr:nth-child(even) td{
@@ -60,13 +68,31 @@ tbody tr:nth-child(odd) td {
   border-radius:10px;
   opacity:0.8;
   
-  background-image: url('../images-contact/evoting.jpg');
+  background-image: url('../images/evoting.jpg');
   background-size: cover;
   background-position:center;
 
-  transition:1.0s ease-in-out;
-
+  position: relative;
 }
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: var(--next-bg);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.box.fade::before {
+  opacity: 1;
+}
+
 
 header {
   background: rgb(57, 48, 48);
