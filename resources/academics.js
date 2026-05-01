@@ -1,7 +1,7 @@
 
     const tables =document.querySelector(".box");
 
-    const images =['evoting.jpg' ,'dit school.jpg' , 'commited students.jpg'];
+    const images =['../images/dit school.jpg' ,'../images/evoting.jpg' , '../images/commited students.jpg'];
     let index =0;
 
     setInterval(()=>{
