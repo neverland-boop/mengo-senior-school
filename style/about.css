@@ -39,6 +39,7 @@ section { padding: 3rem 0; }
  
 }
 .card {
+    display: flex;
   background: rgb(166, 163, 163);
   border: 1px solid var(--line);
   border-top: 4px solid yellow;
