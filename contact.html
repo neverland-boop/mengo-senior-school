@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Mengo Senior School</title>
+    <link rel="icon" type="image/png" href="images/badge.png" >
+    <link href="style/contact.css" rel="stylesheet">
+    <link href="style/footer.css" rel="stylesheet">
+    <link href="style/header.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="nav-bar">
+    <a class="badge" href="index.html"><img src="images/badge.png" alt="badge"><span><b>MENGO SENIOR SCHOOL</b><small>Akwana Akira Ayomba</small></span></a>
+    <!-- <button id="burger" aria-label="Menu">☰</button> -->
+    <ul class="menu" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<div class="info"><div class="wrap"><h1>Start your journey with Mengo Senior School</h1><div class="rule"></div><p>A path to global competence</p></div></div>
+<section class="wrap">
+  <div class="grid">
+    <div class="card"><h3>Address</h3><p>Namirembe Hill<br>P.O. Box 1901<br>Kampala, Uganda</p></div>
+    <div class="card"><h3>Phone</h3><p>+256 414 914 222<br>+256 772 343 434</p></div>
+    <div class="card"><h3>Email</h3><p>info@mengoss.ac.ug<br>admissions@mengoss.ac.ug</p></div>
+  </div>
+</section>
+<section class="wrap">
+  <h2 style="text-align:center">Application</h2><div class="rule"></div>
+
+  <form id="registration" novalidate>
+    <div class="field"><label for="name">Full Name</label>
+      <input id="name" required><span class="error" id="nameError"></span>
+    <div class="field"><label for="email">Email</label>
+      <input id="email" type="email" required><span class="error" id="emailError"></span>
+    <div class="field"><label for="phone">Phone</label>
+      <input id="phone" required><span class="error" id="phoneError"></span>
+    <div class="field"><label for="age">Age (11-22)</label>
+      <input id="age" type="number" min="11" max="22" required><span class="error" id="ageError"></span>
+    <div class="field"><label>Level of interest if application</label>
+      <select name="level" required>
+        <option value="" disabled selected>-- Select --</option>
+        <option>S.1</option>
+        <option>S.2</option>
+        <option>S.3</option>
+        <option>S.4</option>
+        <option>S.5</option>
+        <option>S.6</option>
+    </select>
+    </div><span class="error" id="interestError"></span>
+    <div class="field"><label>Message <small id="count" style="float:right;color:gray">0/500</small></label>
+      <textarea name="msg" id="message" rows="4" maxlength="500" required></textarea><div class="error" id="msg-error"></div>
+    </div>
+    <button class="submit-button" type="submit">Submit </button>
+  </form>
+</section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.755941924478!2d32.559797273958274!3d0.32038989967647163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb673c3b9e75%3A0x22994ff6731118ec!2sMengo%20Senior%20School!5e0!3m2!1sen!2sug!4v1777544000797!5m2!1sen!2sug" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><h4>More About Us</h4><p><a href="about.html">About</a><br><a href="academics.html">Academics</a><br><a href="gallery.html">Gallery</a><br><a href="contact.html">Contact</a></p></div>
+      <div><h4>Contact</h4><p>Namirembe Hill-Bukesa<br>Kampala, Uganda<br>+256 393 247 828<br>info@mengoss.ac.ug</p></div>
+    </div>
+    <div class="copy-right">© 2026 Mengo Senior School. All rights reserved.</div>
+  </div>
+</footer>
+<script src="resources/contact.js"></script>   
+</body>
+</html>
