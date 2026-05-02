@@ -72,7 +72,7 @@ header {
 body {
     font-family: Arial, sans-serif;
     color: #333;
-   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(bishopblock.jpg);
+   background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(file:///C:/Users/LENOVO/Desktop/bidal/BD%20Website/Images/bishopblock.jpg);
     background-size: cover;
     background-position: center;
     margin: o;
@@ -168,4 +168,41 @@ footer a:hover { color: rgb(222, 222, 118); }
   padding-top: 1rem;
   text-align: center;
   font-size: .85rem;
+}
+.wrap {
+  padding: 40px 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.stat {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: black; 
+  border: 1px solid rgba(229, 193, 103, 0.3); 
+  border-radius: 20px; 
+  color: #ffffff;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stat b {
+  display: block;
+  color: #e5c167; 
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
